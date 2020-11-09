@@ -18,8 +18,9 @@ a {
   color: #000;
   font-size: 2em;
   text-decoration: none;}
-img {width: 80%;
-  max-width: 300px;}
+img {width: 75%;
+  max-width: 300px;
+  margin-right: 10%;}
 #nav-content p {font-size: 2em;margin: 20px;}
 ul a {padding: 30px 10px;}
 #nav-drawer {
