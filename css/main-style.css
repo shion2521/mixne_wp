@@ -104,16 +104,19 @@ header a,p {
 
 t {font-size: 2em;}
 p {padding: 20px 1px 20px 1px;}
+a {color: #FFF;
+  text-decoration: none;}
 .menu{
   color: #FFF;
   background-color: #323232;
   border-top: 3px solid #d9d9d9;
   padding: 2em 1em;}
-.menu a {color: #FFF;}
 list a {
   display: block;
   padding-left: 10px;}
-icon a {font-size: 10px;}
+icon a {
+  color: #999;
+  font-size: 10;}
 footer {
-  border-top: 2px dashed #d9d9d9;
+  border-top: 2px dotted #d9d9d9;
   background-color: #323232;}
