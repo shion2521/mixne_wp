@@ -102,16 +102,13 @@ header a,p {
 
 
 
-t {font-size: 2em;}
-p {padding: 20px 1px 20px 1px;}
-a {color: #FFF;
-  text-decoration: none;}
 .menu{
   color: #FFF;
   background-color: #323232;
   border-top: 3px solid #d9d9d9;
   padding: 2em 1em;}
 list a {
+  color: #FFF;
   display: block;
   padding-left: 10px;}
 icon a {
