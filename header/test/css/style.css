@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+  background-color: #4ec4d3;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; 
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+}
+.gnavi__pc-style {
+  margin: 0 0 0 auto;
+}
+.gnavi__pc-style ul {
+  display: flex;
+  justify-content: space-between;
+}
+.gnavi__pc-style ul li:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+/*ここから下がハンバーガーメニューのスタイル*/
+.gnavi__sp-style {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+.gnavi__pc-style {
+  display: none;    
+}
+.gnavi__sp-style {
+  display: block;
+}
+
+/*メニューボタン　展開前*/
+.menu-btn {color: #FFF;
+  display : block;
+  position: fixed;
+  z-index : 3;
+  right : 10px;
+  top   : 0px;
+  width : 42px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.menu-btn span {
+  display : block;
+  position: absolute;
+  width   : 30px;
+  height  : 2px ;
+  left    : 6px;
+  background : #FFF;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition   : 0.3s ease-in-out;
+  transition        : 0.3s ease-in-out;
+}
+.menu-btn span:nth-of-type(1) {
+  top: 10px;
+}
+.menu-btn span:nth-of-type(2) {
+  top: 20px;
+}
+.menu-btn span:nth-of-type(3) {
+  top: 30px;
+}
+  
+/*メニューボタン　展開後*/
+.menu-btn.active span:nth-child(1) {
+  top : 18px;
+  left: 6px;
+  background :#fff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform   : rotate(-45deg);
+  transform        : rotate(-45deg);
+}
+.menu-btn.active span:nth-child(2),
+.menu-btn.active span:nth-child(3) {
+  top: 18px;
+  background :#fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform   : rotate(45deg);
+  transform        : rotate(45deg);
+}
+
+/*スマホ用のメニュー*/
+.gnavi__sp-style {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+  text-align: center;
+  width: 100%;
+	height: 100vh;
+  opacity: 0;
+  transition: opacity .6s ease, visibility .6s ease;
+	display: flex;
+	align-items: center;
+}
+.gnavi__sp-style ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.gnavi__sp-style ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  transition: .4s all;
+}
+.gnavi__sp-style ul li:last-of-type {
+  padding-bottom: 0;
+}
+.gnavi__sp-style ul li:hover{
+  background :#ddd;
+}
+.gnavi__sp-style ul li a {
+  display: block;
+  color: #fff;
+  padding: 1em 0;
+  text-decoration :none;
+}
+.gnavi__sp-style.active {
+  opacity: 1;
+}
+}
