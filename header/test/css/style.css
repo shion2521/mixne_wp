@@ -55,9 +55,8 @@ header {
   position: relative; 
   margin-bottom: 3px;
 }
-h1 {
-  font-size: 20px;
-  font-weight: bold;
+i {
+  font-size: 1em;
   color: #FFF;
 }
 .gnavi__pc-style {
@@ -176,4 +175,10 @@ h1 {
 .gnavi__sp-style.active {
   opacity: 1;
 }
+}
+
+.header-logo {
+  display: block;
+  text-align: center;
+  border-bottom: 1.5px solid #B8C8D1;
 }
