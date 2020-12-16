@@ -178,6 +178,8 @@ i {
 }
 
 .header-logo {
+  width: 100%;
+  max-width: 500px;
   display: block;
   text-align: center;
   border-bottom: 1.5px solid #B8C8D1;
