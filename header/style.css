@@ -7,11 +7,6 @@ body {
   "Hiragino Sans",
   Meiryo,
   sans-serif;}
-a {-webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all  0.3s ease;}
-a:hover {color:  #5687c3;}
 
 .header-menu ul li {display: inline;
   padding: 10px 5% 10px 5%;}
@@ -41,3 +36,9 @@ header {border-bottom: 2px dotted #92D050;}
   padding: 10px;
   line-height: 40px;}
 }
+
+a {-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;}
+a:hover {color:  #5687c3;}
