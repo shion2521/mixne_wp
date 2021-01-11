@@ -38,5 +38,6 @@ header {border-bottom: 2px dotted #92D050;}
   width: 500px;
   padding-top: 20px}
 .header-menu a {border-left: 1px solid #A9A9A9;
-  padding: 5px;}
+  padding: 10px;
+  line-height: 40px;}
 }
