@@ -1,18 +1,18 @@
-t {font-size: 2em;}
-p {padding: 20px 1px 20px 1px;}
-footer a {color: #FFF;
-  text-decoration: none;}
-.menu{
+.side-parts {background-color: #a66e4a;
   color: #FFF;
-  background-color: #323232;
-  border-top: 3px solid #d9d9d9;
-  padding: 2em 1em;}
-list a {
-  display: block;
-  padding-left: 10px;}
-icon a {
-  color: #999;
-  font-size: 10;}
-footer {
-  border-top: 2px dotted #d9d9d9;
-  background-color: #323232;}
+  padding: 10px;}
+.side-links {display:inline}
+li {list-style: none;}
+
+/*Responsive-Design*/
+/*Tab*/
+@media (min-width: 415px) {
+  
+}
+/*PC*/
+@media (min-width: 960px) {
+  .side {float: right;
+  width: 25%}
+  .side-parts {border-radius: 7.5px 0 0 7.5px;
+  margin: 30px 0px;}
+}
