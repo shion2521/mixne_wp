@@ -51,6 +51,7 @@ header {border-bottom: 2px dotted #92D050;}
   line-height: 40px;}
 
   .side {float: right;
+  margin-top: 300px;
   width: 25%}
   .side-parts {border-radius: 7.5px 0 0 7.5px;
   margin: 30px 0px;}
