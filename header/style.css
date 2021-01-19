@@ -26,6 +26,7 @@ header {border-bottom: 2px dotted #92D050;}
 }
 /*PC*/
 @media (min-width: 960px) {
+header {display: flow-root}
 .header-logo img {float: left;
   padding: 0px 0px 10px 50px;
   width: 50%}
