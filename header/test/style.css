@@ -17,7 +17,6 @@ body {
 .header-logo img {max-width: 300px;
   width: 100%}
 
-
 a {-webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -39,7 +38,7 @@ header {border-bottom: 2px dotted #92D050;}
 }
 /*PC*/
 @media (min-width: 960px) {
-  @media (min-width: 960px) {
+header {display: flow-root}
 .header-logo img {float: left;
   padding: 0px 0px 10px 50px;
   width: 50%}
@@ -49,10 +48,9 @@ header {border-bottom: 2px dotted #92D050;}
 .header-menu a {border-left: 1px solid #A9A9A9;
   padding: 10px;
   line-height: 40px;}
-
-  .side {float: right;
+.side {float: right;
   margin-top: 300px;
   width: 25%}
-  .side-parts {border-radius: 7.5px 0 0 7.5px;
+.side-parts {border-radius: 7.5px 0 0 7.5px;
   margin: 30px 0px;}
 }
