@@ -1,9 +1,8 @@
+.side-parts a {color: #FFF}
 .side-parts {background-color: #a66e4a;
-  color: #FFF;
   padding: 10px;}
 .side-links {display:inline}
 li {list-style: none;}
-
 /*Responsive-Design*/
 /*Tab*/
 @media (min-width: 415px) {
