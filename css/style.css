@@ -19,6 +19,12 @@ header {background-color: #FFF}
 .header-logo img {max-width: 300px;
   width: 100%}
 
+.side-parts a {color: #FFF}
+.side-parts {background-color: #a66e4a;
+  padding: 10px;}
+.side-links {display:inline}
+li {list-style: none;}
+
 /*Responsive-Design*/
 /*Phone&Tab*/
 @media (max-width: 960px) {
@@ -38,6 +44,11 @@ header {display: flow-root}
 .header-menu a {border-left: 1px solid #A9A9A9;
   line-height: 40px;
   padding: 10px}
+.side {float: right;
+  width: 25%}
+.side-parts {border-radius: 7.5px 0 0 7.5px;
+  margin: 30px 0px;}
+
 }
 
 a {-webkit-transition: all 0.3s ease;
