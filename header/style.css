@@ -9,7 +9,8 @@ body {
   Meiryo,
   sans-serif}
 
-header {background-color: #FFF}
+header {background-color: #FFF;
+    box-shadow: 1px 2px 4px gray;}
 .header-menu ul li {display: inline;
   padding: 10px 5% 10px 5%}
 .header-menu a {color: #A9A9A9;
