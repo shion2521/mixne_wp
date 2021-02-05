@@ -1,13 +1,12 @@
-.side-parts a {color: #FFF}
-.side-parts {background-color: #a66e4a;
-  padding: 10px;}
+.side-parts a {color: #000}
+.side-parts {background-color: #FFF;
+  padding: 10px}
 .side-links {display:inline}
 li {list-style: none;}
+
 /*Responsive-Design*/
 /*Tab*/
-@media (min-width: 415px) {
-  
-}
+@media (min-width: 415px) {}
 /*PC*/
 @media (min-width: 960px) {
   .side {float: right;
